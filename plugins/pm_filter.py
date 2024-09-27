@@ -687,7 +687,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/+5fU9iwT-x2RmN2Vl')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/+5fU9iwT-x2RmN2Vl'),
+            InlineKeyboardButton(text="Check spelling",url='https://www.google.com/search?q="+'+'.join(my_str.split(''))
         ]
     )
 
